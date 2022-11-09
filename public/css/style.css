@@ -1,0 +1,23 @@
+.slider {
+    max-width: 100%;
+    overflow-x: auto;
+    flex-wrap: wrap;
+}
+.slider > .img-block {
+    height: 120px;
+    overflow: hidden;
+    position: relative;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: solid;
+}
+
+.slider > .img-block > .absolute{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.slider > .img-block > img{
+    height: 120px;
+}
